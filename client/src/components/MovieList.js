@@ -3,7 +3,7 @@ import styled from "styled-components";
 import CategoryFilter from "./CategoryFilter";
 import MovieCard from "./MovieCard";
 
-function MovieList(props) {
+function MovieList(_props) {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [movies, setMovies] = useState([]);
 
